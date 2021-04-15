@@ -9,22 +9,16 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="stylesheet" type="text/css" href="../estilos.css"/>
-      <title>Web title</title>
+      <title>Menu - Ristorante di Ciao Danny</title>
     </head>
-        <body>
+    <body>
         <header>
-            <div id="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Portafolio</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </div>
+            <img class="logo" src="img/logo.png" alt="UPS! Algo a fallado"></img>
         </header>
-        </body>
-
-        </html>
+        <div>
+            <img class="imagenFondo" src="img/imagen.jpg" alt="UPS! Algo a fallado"></img>
+        </div>
+    </body>
+</html>
     </xsl:template>
 </xsl:stylesheet>
