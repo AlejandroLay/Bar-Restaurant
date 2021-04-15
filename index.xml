@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
+<?xml-stylesheet type="text/xsl" href="template/index.xsl"?>
+<catalog>
+  <cd>
+    <title>Autentica Lasagna</title>
+    <chef>Alberto Firmonte</chef>
+    <region>Bologna</region>
+    <descripcion>Saborea la deliciosa y autentica lasaña del norte de Italia hecha con carne de ternera y cerdo de los prados verdes</descripcion>
+    <ingredi>Pimiento, cerdo, ternera, pasta casera, bacon, cebolla, panceta, tomate, aceite V.E., leche, ajos, sanhorias, espécies. </ingredi>
+    <kcal>135kcal / 100gr</kcal>
+    <precio>8.50</precio>
+  </cd>
+
+  <cd>
+    <title>Risotto alla milanese</title>
+    <chef>Alberto Firmonte</chef>
+    <region>Milano</region>
+    <descripcion>Su textura cremosa combinada con el sabor del queso hace de este plato una experiencia culinaria inigualable.</descripcion>
+    <ingredi>Arroz, caldo di carne, cebolla, ajo, mantequilla, vino blanco, condimentos.</ingredi>
+    <kcal>343kcal / 100gr</kcal>
+    <precio>14.99</precio>
+  </cd>
+  
+   <cd>
+    <title>Carpaccio Mixto</title>
+    <chef>Andrea Ghiotto</chef>
+    <region>Florencia</region>
+    <descripcion>Consiste en carne y pescado crudo cortado en láminas finas que se maceran con aceite de oliva y zumo de limón con vinagre acompañado con sal y queso parmesano.</descripcion>
+    <ingredi>Solomillo de ternera, aceite V.E, vinagre, vino, piñones, queso parmessano, sal y pimienta.</ingredi>
+    <kcal>103kcal / 100gr</kcal>
+    <precio>9.75</precio>
+  </cd>
+
+  <cd>
+    <title>Carpaccio Mixto</title>
+    <chef>Andrea Ghiotto</chef>
+    <region>Florencia</region>
+    <descripcion>Consiste en carne y pescado crudo cortado en láminas finas que se maceran con aceite de oliva y zumo de limón con vinagre acompañado con sal y queso parmesano.</descripcion>
+    <ingredi>Solomillo de ternera, aceite V.E, vinagre, vino, piñones, queso parmessano, sal y pimienta.</ingredi>
+    <kcal>103kcal / 100gr</kcal>
+    <precio>9.75</precio>
+  </cd>
+</catalog>
