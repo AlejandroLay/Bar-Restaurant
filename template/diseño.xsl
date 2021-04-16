@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"></link>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="../css/estilos.css"></link>
+        <link rel="stylesheet" href="css/estilos.css"></link>
     </head>
 
     <body>
@@ -23,6 +23,79 @@
         <div>
             <img class="imagenFondo" src="img/imagen.jpg" alt="UPS! Algo a fallado"></img>
         </div>
+        <br></br>
+        <br></br>
+        <!--ANTIPASTI-->
+        <div>
+            <h1 class="titulos">Antipasti</h1>
+            <br></br>
+            <table class="tablas">
+                <xsl:for-each select="catalog/APARTADO1">
+                    <tr>
+                        <td><xsl:value-of select="antipasti"/></td>
+                        <td><xsl:value-of select="kcal"/></td>
+                        <td><xsl:value-of select="precio-1"/></td>
+                    </tr>
+                </xsl:for-each>
+            </table>
+        </div>
+        <br></br>
+        <!--LE SPECIALITÀ-->
+        <div>
+            <h1 class="titulos">Le Specialità</h1>
+            <br></br>
+            <table class="tablas">
+                <xsl:for-each select="catalog/APARTADO2">
+                    <tr>
+                        <td><xsl:value-of select="especialidades"/></td>
+                        <td><xsl:value-of select="precio-2"/></td>
+                    </tr>
+                </xsl:for-each>
+            </table>
+        </div>
+        <br></br>
+        <!--I RISORRY-->
+        <div>
+            <h1 class="titulos">I Risotti</h1>
+            <br></br>
+            <table class="tablas">
+                <xsl:for-each select="catalog/APARTADO3">
+                    <tr>
+                        <td><xsl:value-of select="risotos"/></td>
+                        <td><xsl:value-of select="precio-3"/></td>
+                    </tr>
+                </xsl:for-each>
+            </table>
+        </div>
+        <br></br>
+        <!--LE PIZZE-->
+        <div>
+            <h1 class="titulos">Le Pizze</h1>
+            <br></br>
+            <table class="tablas">
+                <xsl:for-each select="catalog/APARTADO4">
+                    <tr>
+                        <td><xsl:value-of select="pizza"/></td>
+                        <td><xsl:value-of select="precio-4"/></td>
+                    </tr>
+                </xsl:for-each>
+            </table>
+        </div>
+        <br></br>
+        <!--CARNES PESCADOS-->
+        <div>
+            <h1 class="titulos">Carne e Pesce</h1>
+            <br></br>
+            <table class="tablas">
+                <xsl:for-each select="catalog/APARTADO5">
+                    <tr>
+                        <td><xsl:value-of select="carnes"/></td>
+                        <td><xsl:value-of select="precio-5"/></td>
+                    </tr>
+                </xsl:for-each>
+            </table>
+        </div>
+        <br></br>
         <div class="footer-clean">
             <footer>
                 <div class="container">
@@ -51,15 +124,11 @@
                                 <li>Politica di vendita</li>
                             </ul>
                         </div>
-                        <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                            <p class="copyright">Ristorante di Ciao Danny © 2021</p>
-                        </div>
                     </div>
                 </div>
             </footer>
         </div>
     </body>
-
     </html>
 </xsl:template>
 </xsl:stylesheet>
