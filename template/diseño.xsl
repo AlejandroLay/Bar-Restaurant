@@ -33,8 +33,15 @@
                 <xsl:for-each select="catalog/APARTADO1">
                     <tr>
                         <td><xsl:value-of select="antipasti"/></td>
-                        <td><xsl:value-of select="kcal"/></td>
-                        <td><xsl:value-of select="precio-1"/></td>
+                        <td id="kcal"><xsl:value-of select="kcal"/></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="iconitos"><xsl:element name="img">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="imagen/@ruta"/>
+                            </xsl:attribute>
+                        </xsl:element></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="precio"><xsl:value-of select="precio-1"/></td>
                     </tr>
                 </xsl:for-each>
             </table>
@@ -48,7 +55,15 @@
                 <xsl:for-each select="catalog/APARTADO2">
                     <tr>
                         <td><xsl:value-of select="especialidades"/></td>
-                        <td><xsl:value-of select="precio-2"/></td>
+                        <td id="kcal"><xsl:value-of select="kcal"/></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="iconitos"><xsl:element name="img">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="imagen/@ruta"/>
+                            </xsl:attribute>
+                        </xsl:element></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="precio"><xsl:value-of select="precio-2"/></td>
                     </tr>
                 </xsl:for-each>
             </table>
@@ -62,7 +77,15 @@
                 <xsl:for-each select="catalog/APARTADO3">
                     <tr>
                         <td><xsl:value-of select="risotos"/></td>
-                        <td><xsl:value-of select="precio-3"/></td>
+                        <td id="kcal"><xsl:value-of select="kcal"/></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="iconitos"><xsl:element name="img">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="imagen/@ruta"/>
+                            </xsl:attribute>
+                        </xsl:element></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="precio"><xsl:value-of select="precio-3"/></td>
                     </tr>
                 </xsl:for-each>
             </table>
@@ -76,7 +99,15 @@
                 <xsl:for-each select="catalog/APARTADO4">
                     <tr>
                         <td><xsl:value-of select="pizza"/></td>
-                        <td><xsl:value-of select="precio-4"/></td>
+                        <td id="kcal"><xsl:value-of select="kcal"/></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="iconitos"><xsl:element name="img">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="imagen/@ruta"/>
+                            </xsl:attribute>
+                        </xsl:element></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="precio"><xsl:value-of select="precio-4"/></td>
                     </tr>
                 </xsl:for-each>
             </table>
@@ -90,7 +121,15 @@
                 <xsl:for-each select="catalog/APARTADO5">
                     <tr>
                         <td><xsl:value-of select="carnes"/></td>
-                        <td><xsl:value-of select="precio-5"/></td>
+                        <td id="kcal"><xsl:value-of select="kcal"/></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="iconitos"><xsl:element name="img">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="imagen/@ruta"/>
+                            </xsl:attribute>
+                        </xsl:element></td>
+                        <!--////////////////////////////////////////////////////////////////-->
+                        <td id="precio"><xsl:value-of select="precio-5"/></td>
                     </tr>
                 </xsl:for-each>
             </table>
