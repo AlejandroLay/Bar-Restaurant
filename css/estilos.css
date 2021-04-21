@@ -136,3 +136,18 @@ td {
         margin-top: 10px;
     }
 }
+
+@media screen and (max-device-width:700px) {
+    td {
+        font-size: 13px;
+    }
+    #bordes-responsive {
+        margin: 3%;
+    }
+    .logo {
+        width: 100%
+    }
+    .imagenFondo {
+        width: 100%;
+    }
+}
