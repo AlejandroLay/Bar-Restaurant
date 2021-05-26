@@ -3,111 +3,158 @@
 <catalog>
   <!--ANTIPASTI-->
   <APARTADO1>
-    <antipasti>Insalata Mesclun con Prosciutto di Parma, fragole, aceto balsamico e parmigiano</antipasti>
+    <antipasti>Insalata Mesclun con Prosciutto di Parma, fragole, aceto balsamico e parmigiano.</antipasti>
     <kcal>120kcal</kcal>
+    <imagen ruta="img/marisco.png"></imagen>
     <precio-1>9.50€</precio-1>
   </APARTADO1>
   <APARTADO1>
-    <antipasti>Fagottini di Prosciutto di Parma con asparagi e piselli</antipasti>
+    <antipasti>Fagottini di Prosciutto di Parma con asparagi e piselli.</antipasti>
+    <kcal>150kcal</kcal>
+    <imagen ruta="img/sulfits.png"></imagen>
     <precio-1>6.40€</precio-1>
   </APARTADO1>
    <APARTADO1>
-    <antipasti>Crostini con rucola, stracciatella di bufala, prosciutto crudo e pinoli</antipasti>
+    <antipasti>Crostini con rucola, stracciatella di bufala, prosciutto crudo e pinoli.</antipasti>
+    <kcal>90kcal</kcal>
+    <imagen ruta="img/gluten.png"></imagen>
     <precio-1>8.40€</precio-1>
   </APARTADO1>
   <APARTADO1>
-    <antipasti>Cannoli salati con mousse di Prosciutto di Parma</antipasti>
+    <antipasti>Cannoli salati con mousse di Prosciutto di Parma.</antipasti>
+    <kcal>134kcal</kcal>
+    <imagen ruta="img/gluten.png"></imagen>
     <precio-1>11.75€</precio-1>
   </APARTADO1>
   <APARTADO1>
-    <antipasti>Taralli Pugliesi</antipasti>
+    <antipasti>Taralli Pugliesi.</antipasti>
+    <kcal>178kcal</kcal>
+    <imagen ruta="img/marisco.png"></imagen>
     <precio-1>5.80€</precio-1>
   </APARTADO1>
 
 <!--ESPECIALIDADES-->
 
   <APARTADO2>
-    <especialidades>Strozzapreti lì Loren. Pasta fresca con gamberi, aragoste, vongole e cozze</especialidades>
+    <especialidades>Strozzapreti lì Loren, pasta fresca con gamberi, aragoste, vongole e cozze.</especialidades>
+    <kcal>200kcal</kcal>
+    <imagen ruta="img/moluscs.png"></imagen>
     <precio-2>16.50€</precio-2>
   </APARTADO2>
   <APARTADO2>
-    <especialidades>Tagliolini nel tartufo. Pasta fresca al tartufo e camicie al tartufo fresco</especialidades>
+    <especialidades>Tagliolini nel tartufo, pasta fresca al tartufo e camicie al tartufo fresco.</especialidades>
+    <kcal>193kcal</kcal>
+    <imagen ruta="img/lactics.png"></imagen>
     <precio-2>19.95€</precio-2>
   </APARTADO2>
   <APARTADO2>
-    <especialidades>Paccheri all'Astice. Pasta tipica con pomodori freschi siciliani, aragosta e un tocco di peperoncino</especialidades>
+    <especialidades>Paccheri all'Astice, pasta tipica con pomodori freschi siciliani, aragosta e un tocco di peperoncino.</especialidades>
+    <kcal>121kcal</kcal>
+    <imagen ruta="img/peix.png"></imagen>
     <precio-2>21.50€</precio-2>
   </APARTADO2>
   <APARTADO2>
-    <especialidades>Risotto allo champagne Mumm e fragole. Piatto in condivisione che include una bottiglia di Champagne Mumm</especialidades>
+    <especialidades>Risotto allo champagne Mumm e fragole, piatto in condivisione che include una bottiglia di Champagne Mumm.</especialidades>
+    <kcal>238kcal</kcal>
+    <imagen ruta="img/peix.png"></imagen>
     <precio-2>49.00€</precio-2>
   </APARTADO2>
 
 <!--RISOTOS-->
   <APARTADO3>
-    <risotos>Al frutti di mare. Con cozze, vongole, gamberi e aragoste</risotos>
+    <risotos>Al frutti di mare, con cozze, vongole, gamberi e aragoste.</risotos>
+    <kcal>158kcal</kcal>
+    <imagen ruta="img/ous.png"></imagen>
     <precio-3>16.50€</precio-3>
   </APARTADO3>
   <APARTADO3>
-    <risotos>Al Brunello. Vino Brunello con parmigiano croccante</risotos>
+    <risotos>Al Brunello, vino Brunello con parmigiano croccante.</risotos>
+    <kcal>189kcal</kcal>
+    <imagen ruta="img/moluscs.png"></imagen>
     <precio-3>13.50€</precio-3>
   </APARTADO3>
   <APARTADO3>
-    <risotos>Porcini e tartufo. Con boletus e camicie al tartufo fresco</risotos>
+    <risotos>Porcini e tartufo, con boletus e camicie al tartufo fresco.</risotos>
+    <kcal>143kcal</kcal>
+    <imagen ruta="img/mostassa.png"></imagen>
     <precio-3>16.90€</precio-3>
   </APARTADO3>
 
 <!--PIZZAS-->
 
   <APARTADO4>
-    <pizza>Marinara. Con pomodoro San Marzano, aglio, olio d'oliva e origano</pizza>
+    <pizza>Marinara, con pomodoro San Marzano, aglio, olio d'oliva e origano.</pizza>
+    <kcal>131kcal</kcal>
+    <imagen ruta="img/api.png"></imagen>
     <precio-4>9.50€</precio-4>
   </APARTADO4>
   <APARTADO4>
-    <pizza>Margherita. Con mozzarella, pomodoro San Marzano, olio d'oliva e basilico</pizza>
+    <pizza>Margherita, con mozzarella, pomodoro San Marzano, olio d'oliva e basilico.</pizza>
+    <kcal>132kcal</kcal>
+    <imagen ruta="img/cacahuets.png"></imagen>
     <precio-4>11.50€</precio-4>
   </APARTADO4>
   <APARTADO4>
-    <pizza>Prosciutto e funghi. Con mozzarella, pomodoro San Marzano, prosciutto cotto all'italino e funghi</pizza>
+    <pizza>Prosciutto e funghi, con mozzarella, pomodoro San Marzano, prosciutto cotto all'italino e funghi.</pizza>
+    <kcal>139kcal</kcal>
+    <imagen ruta="img/fruits.png"></imagen>
     <precio-4>12.50€</precio-4>
   </APARTADO4>
   <APARTADO4>
-    <pizza>Quattro formaggi. Con provola, parmigiano, mozzarella e gorgonzola</pizza>
+    <pizza>Quattro formaggi, con provola, parmigiano, mozzarella e gorgonzola.</pizza>
+    <kcal>135kcal</kcal>
+    <imagen ruta="img/fruits.png"></imagen>
     <precio-4>12.90€</precio-4>
   </APARTADO4>
   <APARTADO4>
-    <pizza>Del bosco. Con mozzarella, olio di tartufo bianco e tartufo laminato di stagione</pizza>
+    <pizza>Del bosco, con mozzarella, olio di tartufo bianco e tartufo laminato di stagione.</pizza>
+    <kcal>131kcal</kcal>
+    <imagen ruta="img/api.png"></imagen>
     <precio-4>18.90€</precio-4>
   </APARTADO4>
   <APARTADO4>
-    <pizza>Parmigiana. Con pomodoro San Marzano, mozzarella, melanzane e fogli di parmigiano</pizza>
+    <pizza>Parmigiana, con pomodoro San Marzano, mozzarella, melanzane e fogli di parmigiano.</pizza>
+    <kcal>156kcal</kcal>
+    <imagen ruta="img/marisco.png"></imagen>
     <precio-4>12.90€</precio-4>
   </APARTADO4>
   <APARTADO4>
-    <pizza>All'Ortolana. Con mozzarella, provola, zucca, egging, zucchine, pomodori freschi siciliani e rucula</pizza>
+    <pizza>All'Ortolana, con mozzarella, provola, zucca, egging, zucchine, pomodori freschi siciliani e rucula.</pizza>
+    <kcal>142kcal</kcal>
+    <imagen ruta="img/gluten.png"></imagen>
     <precio-4>14.50€</precio-4>
   </APARTADO4>
 
   <!--CARNES PESCADOS-->
 
   <APARTADO5>
-    <carnes>Scaloppina di pollo al vino blanco. Carni bovine da vino bianco</carnes>
+    <carnes>Scaloppina di pollo al vino blanco, carni bovine da vino bianco.</carnes>
+    <kcal>190kcal</kcal>
+    <imagen ruta="img/mostassa.png"></imagen>
     <precio-5>8.90€</precio-5>
   </APARTADO5>
   <APARTADO5>
-    <carnes>Scaloppina al Marsala. Marsala Vino Manzo</carnes>
+    <carnes>Scaloppina al Marsala, marsala Vino Manzo.</carnes>
+    <kcal>175kcal</kcal>
+    <imagen ruta="img/peix.png"></imagen>
     <precio-5>12.50€</precio-5>
   </APARTADO5>
   <APARTADO5>
-    <carnes>Tagliata di Manzo. Controfiletto a fette con rosmarino, boletus e tartufo</carnes>
+    <carnes>Tagliata di Manzo, controfiletto a fette con rosmarino, boletus e tartufo.</carnes>
+    <kcal>196kcal</kcal>
+    <imagen ruta="img/ous.png"></imagen>
     <precio-5>21.50€</precio-5>
   </APARTADO5>
   <APARTADO5>
-    <carnes>Filetto al frutti del bosco. Controfiletto con bacche e aceto balsamico</carnes>
+    <carnes>Filetto al frutti del bosco, controfiletto con bacche e aceto balsamico.</carnes>
+    <kcal>210kcal</kcal>
+    <imagen ruta="img/cacahuets.png"></imagen>
     <precio-5>20.50€</precio-5>
   </APARTADO5>
   <APARTADO5>
-    <carnes>Pesce scapada alla Livornese. Pesce spada con olive nere, capperi e pomodori freschi siciliani</carnes>
+    <carnes>Pesce scapada alla Livornese, pesce spada con olive nere, capperi e pomodori freschi siciliani.</carnes>
+    <kcal>190kcal</kcal>
+    <imagen ruta="img/marisco.png"></imagen>
     <precio-5>12.50€</precio-5>
   </APARTADO5>
 </catalog>

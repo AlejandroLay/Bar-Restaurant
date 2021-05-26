@@ -26,76 +26,117 @@
         <br></br>
         <br></br>
         <!--ANTIPASTI-->
-        <div>
-            <h1 class="titulos">Antipasti</h1>
+        <div id="bordes-responsive">
+            <div>
+                <h1 class="titulos">Antipasti</h1>
+                <br></br>
+                <table class="tablas">
+                    <xsl:for-each select="catalog/APARTADO1">
+                        <tr>
+                            <td><xsl:value-of select="antipasti"/></td>
+                            <td id="kcal"><xsl:value-of select="kcal"/></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="iconitos"><xsl:element name="img">
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="imagen/@ruta"/>
+                                </xsl:attribute>
+                            </xsl:element></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="precio"><xsl:value-of select="precio-1"/></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </div>
             <br></br>
-            <table class="tablas">
-                <xsl:for-each select="catalog/APARTADO1">
-                    <tr>
-                        <td><xsl:value-of select="antipasti"/></td>
-                        <td><xsl:value-of select="kcal"/></td>
-                        <td><xsl:value-of select="precio-1"/></td>
-                    </tr>
-                </xsl:for-each>
-            </table>
-        </div>
-        <br></br>
-        <!--LE SPECIALITÀ-->
-        <div>
-            <h1 class="titulos">Le Specialità</h1>
+            <!--LE SPECIALITÀ-->
+            <div>
+                <h1 class="titulos">Le Specialità</h1>
+                <br></br>
+                <table class="tablas">
+                    <xsl:for-each select="catalog/APARTADO2">
+                        <tr>
+                            <td><xsl:value-of select="especialidades"/></td>
+                            <td id="kcal"><xsl:value-of select="kcal"/></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="iconitos"><xsl:element name="img">
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="imagen/@ruta"/>
+                                </xsl:attribute>
+                            </xsl:element></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="precio"><xsl:value-of select="precio-2"/></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </div>
             <br></br>
-            <table class="tablas">
-                <xsl:for-each select="catalog/APARTADO2">
-                    <tr>
-                        <td><xsl:value-of select="especialidades"/></td>
-                        <td><xsl:value-of select="precio-2"/></td>
-                    </tr>
-                </xsl:for-each>
-            </table>
-        </div>
-        <br></br>
-        <!--I RISORRY-->
-        <div>
-            <h1 class="titulos">I Risotti</h1>
+            <!--I RISORRY-->
+            <div>
+                <h1 class="titulos">I Risotti</h1>
+                <br></br>
+                <table class="tablas">
+                    <xsl:for-each select="catalog/APARTADO3">
+                        <tr>
+                            <td><xsl:value-of select="risotos"/></td>
+                            <td id="kcal"><xsl:value-of select="kcal"/></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="iconitos"><xsl:element name="img">
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="imagen/@ruta"/>
+                                </xsl:attribute>
+                            </xsl:element></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="precio"><xsl:value-of select="precio-3"/></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </div>
             <br></br>
-            <table class="tablas">
-                <xsl:for-each select="catalog/APARTADO3">
-                    <tr>
-                        <td><xsl:value-of select="risotos"/></td>
-                        <td><xsl:value-of select="precio-3"/></td>
-                    </tr>
-                </xsl:for-each>
-            </table>
-        </div>
-        <br></br>
-        <!--LE PIZZE-->
-        <div>
-            <h1 class="titulos">Le Pizze</h1>
+            <!--LE PIZZE-->
+            <div>
+                <h1 class="titulos">Le Pizze</h1>
+                <br></br>
+                <table class="tablas">
+                    <xsl:for-each select="catalog/APARTADO4">
+                        <tr>
+                            <td><xsl:value-of select="pizza"/></td>
+                            <td id="kcal"><xsl:value-of select="kcal"/></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="iconitos"><xsl:element name="img">
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="imagen/@ruta"/>
+                                </xsl:attribute>
+                            </xsl:element></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="precio"><xsl:value-of select="precio-4"/></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </div>
             <br></br>
-            <table class="tablas">
-                <xsl:for-each select="catalog/APARTADO4">
-                    <tr>
-                        <td><xsl:value-of select="pizza"/></td>
-                        <td><xsl:value-of select="precio-4"/></td>
-                    </tr>
-                </xsl:for-each>
-            </table>
-        </div>
-        <br></br>
-        <!--CARNES PESCADOS-->
-        <div>
-            <h1 class="titulos">Carne e Pesce</h1>
+            <!--CARNES PESCADOS-->
+            <div>
+                <h1 class="titulos">Carne e Pesce</h1>
+                <br></br>
+                <table class="tablas">
+                    <xsl:for-each select="catalog/APARTADO5">
+                        <tr>
+                            <td><xsl:value-of select="carnes"/></td>
+                            <td id="kcal"><xsl:value-of select="kcal"/></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="iconitos"><xsl:element name="img">
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="imagen/@ruta"/>
+                                </xsl:attribute>
+                            </xsl:element></td>
+                            <!--////////////////////////////////////////////////////////////////-->
+                            <td id="precio"><xsl:value-of select="precio-5"/></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </div>
             <br></br>
-            <table class="tablas">
-                <xsl:for-each select="catalog/APARTADO5">
-                    <tr>
-                        <td><xsl:value-of select="carnes"/></td>
-                        <td><xsl:value-of select="precio-5"/></td>
-                    </tr>
-                </xsl:for-each>
-            </table>
         </div>
-        <br></br>
         <div class="footer-clean">
             <footer>
                 <div class="container">
